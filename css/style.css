@@ -1,0 +1,628 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400;600&display=swap");
+
+body {
+    font-family: "Bebas Neue", cursive;
+
+    font-family: "Open Sans", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a:hover,
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #393939;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+ul,
+li,
+.navbar,
+.navbar-brand,
+.navbar-nav,
+.nav-item,
+.nav-link {
+    margin: 0;
+    padding: 0;
+}
+
+.section_gap {
+    margin-top: 100px;
+}
+
+.item_title {
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: #393939;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+/*=========================
+Header Top Start
+=========================*/
+
+.header_top_icon {
+    float: right;
+    padding-top: 15px;
+}
+
+.header_top_icon a {
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    color: #ea2e49;
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+/*=========================
+Header Top End
+=========================*/
+
+/*=========================
+Header Start
+=========================*/
+.nav-item {
+    margin-left: 10px;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    color: #313131 !important;
+    padding: 10px 25px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    background: #ea2e49 !important;
+    color: #fff !important;
+}
+
+.navbar-nav .nav-link.active {
+    background: #ea2e49 !important;
+    color: #fff !important;
+}
+
+#navbarNav {
+    margin-bottom: -43px;
+}
+
+/*=========================
+Header End
+=========================*/
+
+/*=========================
+Banner Start
+=========================*/
+.carousel-indicators {
+    bottom: -16px;
+    justify-content: space-between;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.carousel-indicators li {
+    width: 33.2%;
+    height: 35px;
+    margin: 0;
+    border: 0;
+    border-right: 3px solid #fff;
+    opacity: 1;
+    background: #ea2e49;
+    text-indent: 0;
+    text-align: center;
+    position: relative;
+}
+
+.carousel-indicators li p {
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel-indicators li:last-child {
+    border-right: 0;
+}
+
+/*=========================
+Banner End
+=========================*/
+
+/*========================
+Social sider
+========================*/
+.social_sider {
+    position: fixed;
+    top: 120px;
+    right: 0;
+    z-index: 999;
+}
+
+.social_sider li a {
+    display: inline-block;
+    margin-bottom: 5px;
+    height: 40px;
+    width: 40px;
+    background: #464646;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.social_sider li:hover a {
+    background: #ea2e49;
+}
+
+.social_sider li a i {
+    font-size: 22px;
+    color: #fff;
+    line-height: 40px;
+}
+
+/*========================
+Social sider
+========================*/
+
+/*========================
+Product
+========================*/
+.product_item {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.product_details {
+    position: absolute;
+    bottom: -75px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #efeff8;
+}
+
+.product_details ul li {
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    margin: 10px 0px;
+    font-size: 16px;
+    color: #222222;
+}
+
+.product_details ul li:last-child {
+    color: #ea2e49;
+    font-size: 18px;
+}
+
+/*========================
+Product
+========================*/
+
+/*========================
+Latest  Products Start
+========================*/
+
+
+/*========================
+Latest  Products End
+========================*/
+
+/*========================
+Featured Start
+========================*/
+
+.featured_video {
+    position: relative;
+}
+
+.featured_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(33, 33, 33, 0.5);
+}
+
+.featured_overlay_content a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 75px;
+    color: #fff;
+}
+
+.featured_overlay_content h2 {
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 32px;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 25px;
+}
+
+/*========================
+Featured End
+========================*/
+
+/*========================
+About start
+========================*/
+.about {
+    background: url(../images/about-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+
+.about_content_title h2 {
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 32px;
+    color: #393939;
+    text-transform: uppercase;
+}
+
+.about_content_title h2 span {
+    color: #ea2e49;
+}
+
+.about_content_details h3 {
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: #393939;
+    margin-bottom: 15px;
+}
+
+.about_content_details p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #393939;
+    margin-bottom: 15px;
+}
+
+.about_content_details p span {
+    font-weight: 600;
+    font-size: 14px;
+    color: #ea2e49;
+}
+
+/*========================
+About End
+========================*/
+
+/*========================
+News & Event Start
+========================*/
+.social h3 {
+    color: #393939;
+    margin-bottom: 35px;
+}
+
+.news_event .item {
+    border: 1px solid #eaeaea;
+    background: #fff;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.news_event .item:hover {
+    background: #f4f4f4;
+}
+
+.news_event .item a {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: #393939;
+    padding-left: 20px;
+    transition: 0.3s;
+}
+
+.news_event .item:hover a {
+    color: #ea2e49;
+}
+
+/*========================
+News & Event End
+========================*/
+
+/*========================
+Contact Start
+========================*/
+.contact {
+    background: url(../images/contact-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1);
+    padding: 40px 0px 50px;
+}
+
+.contact h5 {
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.contact a {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #d3d3d3;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    display: block;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.contact a:hover {
+    color: #ea2e49;
+}
+
+.contact p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #d3d3d3;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+/*========================
+Contact End
+========================*/
+
+/*========================
+Footer Start
+========================*/
+footer {
+    background-color: #ea2e49;
+    padding: 10px 0px;
+}
+
+footer p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #c6c6c6;
+}
+
+/*========================
+Footer End
+========================*/
+
+
+/*-----------------------------------------------------------------------Mens Css-----------------------------------------------------------------------*/
+
+
+.banner_breadcrumb {
+    display: block;
+    background: #333745;
+    padding: 15px 0px 15px 30px;
+}
+
+.banner_breadcrumb a,
+.banner_breadcrumb p {
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/*========================
+Men's Collection Start
+========================*/
+.categories_menu h3 {
+    color: #fff;
+    padding: 15px 0px 15px 20px;
+    background: #ea2e49;
+}
+
+.categories_menu a {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #3a3a3a;
+    background: #efeff8;
+    display: block;
+    padding: 25px 0px 15px 20px;
+    transition: 0.3s;
+}
+
+.categories_menu a:hover {
+    color: #ea2e49;
+    background: #fff;
+}
+
+.men_collection_title h3 {
+    color: #393939;
+    margin-bottom: 20px;
+}
+
+/*========================
+Men's Collection End
+========================*/
+
+/*-----------------------------------------------------------------------Mens Css-----------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------About Us Css-----------------------------------------------------------------------*/
+.about_menu {
+    background-color: #efeff8;
+    padding-bottom: 200px;
+}
+
+.about_menu .nav-link.active {
+    background-color: #fff !important;
+}
+
+.about_menu h3 {
+    padding: 10px 25px;
+    color: #fff;
+    background: #ea2e49;
+}
+
+.about_menu .nav-link {
+    margin: 5px 0px;
+    transition: 0.3s;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
+    padding: 10px 25px !important;
+}
+
+.about_menu .nav-link:hover {
+    color: #ea2e49 !important;
+    background-color: #fff !important;
+}
+
+.about_title {
+    margin: 20px 0px;
+}
+
+.about_us p {
+    margin: 15px 0px;
+}
+
+.about_us_img {
+    position: relative;
+}
+
+.about_img_overlay {
+    position: absolute;
+    left: 5px;
+    bottom: 10px;
+}
+
+.about_img_overlay li {
+    margin: 5px 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.about_img_overlay li h2 {
+    color: #fff;
+    padding: 0px 150px 0px 10px;
+}
+
+.news_event_item {
+    padding: 40px 0px;
+}
+
+.news_event_item:last-child {
+    border-top: 1px solid #dfdfdf;
+}
+
+.news_event_item h2 {
+    color: #393939;
+    margin: 15px 0px 5px;
+}
+
+.news_event_item h5 {
+    color: #393939;
+    margin-bottom: 25px;
+}
+
+/*-----------------------------------------------------------------------About Us Css----------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------Contact Us Css--------------------------------------------------------------------*/
+
+.contact_form form .form-control {
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    color: #495057;
+    background-color: #fff;
+    border-radius: 0;
+    margin-bottom: 25px;
+}
+
+.contact_form form .btn {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 20px 100px;
+    background: #ea2e49;
+    border-radius: 0;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #ea2e49;
+    outline: 0;
+    box-shadow: none;
+}
+
+textarea.form-control {
+    height: 250px;
+    resize: none;
+}
+
+/*-----------------------------------------------------------------------Contact Us Css-----------------------------------------------------------------------*/
